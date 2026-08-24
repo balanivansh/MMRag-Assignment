@@ -1,4 +1,4 @@
-from pydantic import BaseModel
+from pydantic import BaseModel, field_validator
 from typing import List, Dict, Any, Optional
 
 class ChatRequest(BaseModel):
@@ -11,6 +11,19 @@ class ChatRequest(BaseModel):
     page_number: Optional[int] = None
     page_from: Optional[int] = None
     page_to: Optional[int] = None
+
+    @field_validator("content_types")
+    @classmethod
+    def validate_content_types(cls, v: Optional[List[str]]) -> Optional[List[str]]:
+        if v is None:
+            return v
+        valid_types = {"image", "page_text_plus_ocr", "table", "text"}
+        for item in v:
+            if item not in valid_types:
+                raise ValueError(
+                    f"Unsupported content_types: ['{item}']. Valid values are: {sorted(list(valid_types))}"
+                )
+        return v
 
 class SourceMetadata(BaseModel):
     rank: int

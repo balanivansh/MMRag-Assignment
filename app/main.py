@@ -4,6 +4,7 @@ from pathlib import Path
 from contextlib import asynccontextmanager
 from fastapi import FastAPI, Request
 from fastapi.responses import JSONResponse
+from fastapi.exceptions import RequestValidationError
 
 # Ensure project root is in sys.path
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
@@ -22,7 +23,7 @@ async def lifespan(app: FastAPI):
     # Retrieve configuration and fail fast if required env vars are missing
     settings = get_settings()
     
-    # Write settings to os.environ so that underlying constructors and SDKs can read them
+    # Workaround: src/ constructors read credentials via os.getenv() internally rather than accepting them as kwargs, and src/ is intentionally not modified in this phase. Settings are pushed into the process environment before service instantiation so those internal os.getenv() calls resolve correctly.
     os.environ["GOOGLE_API_KEY"] = settings.final_gemini_api_key
     os.environ["GEMINI_API_KEY"] = settings.final_gemini_api_key
     os.environ["GROQ_API_KEY"] = settings.groq_api_key or ""
@@ -92,5 +93,12 @@ async def document_portal_exception_handler(request: Request, exc: DocumentPorta
 async def general_exception_handler(request: Request, exc: Exception):
     return JSONResponse(
         status_code=500,
+        content={"detail": str(exc)}
+    )
+
+@app.exception_handler(RequestValidationError)
+async def validation_exception_handler(request: Request, exc: RequestValidationError):
+    return JSONResponse(
+        status_code=400,
         content={"detail": str(exc)}
     )

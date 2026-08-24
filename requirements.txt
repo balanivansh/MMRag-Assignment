@@ -32,3 +32,10 @@ nbconvert
 
 # Legacy setup.py compatibility
 setuptools>=68
+
+# FastAPI service layer dependencies
+fastapi
+uvicorn[standard]
+python-multipart
+pydantic-settings
+httpx
