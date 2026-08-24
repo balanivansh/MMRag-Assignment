@@ -8,7 +8,7 @@ from uuid import NAMESPACE_URL, uuid5
 
 from dotenv import load_dotenv
 from langchain_core.documents import Document
-from langchain_openai import OpenAIEmbeddings
+from langchain_google_genai import GoogleGenerativeAIEmbeddings
 from langchain_qdrant import QdrantVectorStore, RetrievalMode
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from qdrant_client import QdrantClient, models
@@ -46,11 +46,14 @@ class MultimodalDocumentIngestion:
                 or "mm-rag-documents"
             )
             self.embedding_model = (
-                os.getenv("OPENAI_EMBEDDING_MODEL")
-                or "text-embedding-3-large"
+                os.getenv("GEMINI_EMBEDDING_MODEL")
+                or os.getenv("OPENAI_EMBEDDING_MODEL")
+                or "models/gemini-embedding-2"
             )
             self.embedding_dimension = int(
-                os.getenv("OPENAI_EMBEDDING_DIMENSION") or 3072
+                os.getenv("GEMINI_EMBEDDING_DIMENSION")
+                or os.getenv("OPENAI_EMBEDDING_DIMENSION")
+                or 3072
             )
             self.qdrant_url = (
                 os.getenv("QDRANT_URL")
@@ -61,9 +64,10 @@ class MultimodalDocumentIngestion:
 
             self._validate_config()
 
-            self.embeddings = OpenAIEmbeddings(
+            self.embeddings = GoogleGenerativeAIEmbeddings(
                 model=self.embedding_model,
-                dimensions=self.embedding_dimension,
+                output_dimensionality=self.embedding_dimension,
+                google_api_key=os.getenv("GOOGLE_API_KEY") or os.getenv("GEMINI_API_KEY"),
             )
             self.text_splitter = RecursiveCharacterTextSplitter(
                 chunk_size=chunk_size,
@@ -97,12 +101,12 @@ class MultimodalDocumentIngestion:
             ) from exc
 
     def _validate_config(self) -> None:
-        if not os.getenv("OPENAI_API_KEY"):
-            raise ValueError("OPENAI_API_KEY is missing")
+        if not os.getenv("GOOGLE_API_KEY") and not os.getenv("GEMINI_API_KEY"):
+            raise ValueError("GOOGLE_API_KEY or GEMINI_API_KEY is missing")
         if not self.qdrant_url:
             raise ValueError("QDRANT_URL is missing")
         if self.embedding_dimension <= 0:
-            raise ValueError("OPENAI_EMBEDDING_DIMENSION must be positive")
+            raise ValueError("Embedding dimension must be positive")
         if self.batch_size <= 0:
             raise ValueError("batch_size must be positive")
 

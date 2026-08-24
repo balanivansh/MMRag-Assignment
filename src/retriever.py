@@ -8,7 +8,7 @@ from typing import Any, Iterable
 from dotenv import load_dotenv
 from langchain_core.documents import Document
 from langchain_core.vectorstores import VectorStoreRetriever
-from langchain_openai import OpenAIEmbeddings
+from langchain_google_genai import GoogleGenerativeAIEmbeddings
 from langchain_qdrant import QdrantVectorStore, RetrievalMode
 from qdrant_client import QdrantClient, models
 
@@ -75,12 +75,14 @@ class MultimodalQdrantRetriever:
             )
 
             self.embedding_model = (
-                os.getenv("OPENAI_EMBEDDING_MODEL")
-                or "text-embedding-3-large"
+                os.getenv("GEMINI_EMBEDDING_MODEL")
+                or os.getenv("OPENAI_EMBEDDING_MODEL")
+                or "models/gemini-embedding-2"
             )
 
             self.embedding_dimension = int(
-                os.getenv("OPENAI_EMBEDDING_DIMENSION")
+                os.getenv("GEMINI_EMBEDDING_DIMENSION")
+                or os.getenv("OPENAI_EMBEDDING_DIMENSION")
                 or 3072
             )
 
@@ -100,9 +102,10 @@ class MultimodalQdrantRetriever:
 
             self._validate_collection()
 
-            self.embeddings = OpenAIEmbeddings(
+            self.embeddings = GoogleGenerativeAIEmbeddings(
                 model=self.embedding_model,
-                dimensions=self.embedding_dimension,
+                output_dimensionality=self.embedding_dimension,
+                google_api_key=os.getenv("GOOGLE_API_KEY") or os.getenv("GEMINI_API_KEY"),
             )
 
             self.vector_store = QdrantVectorStore(
@@ -133,15 +136,15 @@ class MultimodalQdrantRetriever:
     # -----------------------------------------------------------------
 
     def _validate_config(self) -> None:
-        if not os.getenv("OPENAI_API_KEY"):
-            raise ValueError("OPENAI_API_KEY is missing")
+        if not os.getenv("GOOGLE_API_KEY") and not os.getenv("GEMINI_API_KEY"):
+            raise ValueError("GOOGLE_API_KEY or GEMINI_API_KEY is missing")
 
         if not self.qdrant_url:
             raise ValueError("QDRANT_URL is missing")
 
         if self.embedding_dimension <= 0:
             raise ValueError(
-                "OPENAI_EMBEDDING_DIMENSION must be positive"
+                "Embedding dimension must be positive"
             )
 
     def _validate_collection(self) -> None:

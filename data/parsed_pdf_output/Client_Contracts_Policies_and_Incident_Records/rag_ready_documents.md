@@ -5,11 +5,11 @@
 Metadata:
 ```json
 {
-  "source": "C:\\Users\\Sunny\\mm-rag-full-stack-genai-bootcamp-1.0\\data\\uploads\\Client_Contracts_Policies_and_Incident_Records.pdf",
+  "source": "/Users/vanshbalani/Desktop/FullStackGenAI/Class-39-MM-Rag-project/mm-rag-full-stack-genai-bootcamp-1.0/data/uploads/Client_Contracts_Policies_and_Incident_Records.pdf",
   "page_number": 1,
   "content_type": "page_text_plus_ocr",
   "image_count": 0,
-  "page_image_path": "C:\\Users\\Sunny\\mm-rag-full-stack-genai-bootcamp-1.0\\data\\parsed_pdf_output\\Client_Contracts_Policies_and_Incident_Records\\page_images\\page_001.png"
+  "page_image_path": "/Users/vanshbalani/Desktop/FullStackGenAI/Class-39-MM-Rag-project/mm-rag-full-stack-genai-bootcamp-1.0/data/parsed_pdf_output/Client_Contracts_Policies_and_Incident_Records/page_images/page_001.png"
 }
 ```
 
@@ -68,7 +68,7 @@ strategies, metadata preservation, and source citation quality.
 
 Key statement: RAG does not train the model. RAG gives the model the right context before answering.
 
-Contracts Dense legal text, clause numbers, cross. Need section-aware chunks and citations
+Contracts Dense legal text, clause numbers, cross Need section-aware chunks and citations
 references
 
 Tables Merged headers, numeric columns, Need row/column preservation
@@ -77,7 +77,7 @@ footnotes
 Images Architecture diagram, heatmap, scanned Need OCR or multimodal extraction
 form
 
-Multi-tenant metadata client_id, document_id, Need access-sate retrieval
+Multi-tenant metadata _client_id, document_id, Need access-safe retrieval
 
 contract_group_id
 
@@ -91,11 +91,11 @@ Complex RAG Parsing Sample - synthetic document Page 1
 Metadata:
 ```json
 {
-  "source": "C:\\Users\\Sunny\\mm-rag-full-stack-genai-bootcamp-1.0\\data\\uploads\\Client_Contracts_Policies_and_Incident_Records.pdf",
+  "source": "/Users/vanshbalani/Desktop/FullStackGenAI/Class-39-MM-Rag-project/mm-rag-full-stack-genai-bootcamp-1.0/data/uploads/Client_Contracts_Policies_and_Incident_Records.pdf",
   "page_number": 2,
   "content_type": "page_text_plus_ocr",
   "image_count": 1,
-  "page_image_path": "C:\\Users\\Sunny\\mm-rag-full-stack-genai-bootcamp-1.0\\data\\parsed_pdf_output\\Client_Contracts_Policies_and_Incident_Records\\page_images\\page_002.png"
+  "page_image_path": "/Users/vanshbalani/Desktop/FullStackGenAI/Class-39-MM-Rag-project/mm-rag-full-stack-genai-bootcamp-1.0/data/parsed_pdf_output/Client_Contracts_Policies_and_Incident_Records/page_images/page_002.png"
 }
 ```
 
@@ -174,7 +174,7 @@ ig Ownership Map
 
 Client Admin } ( rac Service }
 
-( auait Team }
+(auait Team }
 
 Vector DB
 
@@ -194,11 +194,11 @@ Page 2
 Metadata:
 ```json
 {
-  "source": "C:\\Users\\Sunny\\mm-rag-full-stack-genai-bootcamp-1.0\\data\\uploads\\Client_Contracts_Policies_and_Incident_Records.pdf",
+  "source": "/Users/vanshbalani/Desktop/FullStackGenAI/Class-39-MM-Rag-project/mm-rag-full-stack-genai-bootcamp-1.0/data/uploads/Client_Contracts_Policies_and_Incident_Records.pdf",
   "page_number": 3,
   "content_type": "page_text_plus_ocr",
   "image_count": 0,
-  "page_image_path": "C:\\Users\\Sunny\\mm-rag-full-stack-genai-bootcamp-1.0\\data\\parsed_pdf_output\\Client_Contracts_Policies_and_Incident_Records\\page_images\\page_003.png"
+  "page_image_path": "/Users/vanshbalani/Desktop/FullStackGenAI/Class-39-MM-Rag-project/mm-rag-full-stack-genai-bootcamp-1.0/data/parsed_pdf_output/Client_Contracts_Policies_and_Incident_Records/page_images/page_003.png"
 }
 ```
 
@@ -285,15 +285,15 @@ rotated tables, missing metadata, embedded images, or formula-generated values. 
 different formats and extraction expectations.
 
 ARK-MSA-001 Arka Finance ~~ PDF 32 pages
-ARK-DPA-002 Arka Finance | DOCX 18 pages
-BLR-PRICE-00 BlueLeaf Retail XLSX 12 sheets
+ARK-DPA-002 Arka Finance DOCX 18 pages
+BLR-PRICE-00 BlueLeaf Retail +XLSX 12 sheets
 
 3
 
-BLR-SLA-004 —BlueLeaf Retail | PDF 9 pages
+BLR-SLA-004 BlueLeaf Retail | PDF 9 pages
 CRM-OPS-005 CityRide Mobility CSV 48,200 rows
 
-CRM-FORM-00 CityRide Mobility Scanned PDF 4 pages
+CRM-FORM-00_ CityRide Mobility Scanned PDF 4 pages
 
 6
 KB-RUN-007 Shared Markdown 14 files
@@ -318,7 +318,7 @@ FAQ content, links
 Born-digital text with footer
 references
 
-‘Track changes removed
+Track changes removed
 before ingestion
 
 Merged cells and formulas
@@ -351,11 +351,11 @@ Page 3
 Metadata:
 ```json
 {
-  "source": "C:\\Users\\Sunny\\mm-rag-full-stack-genai-bootcamp-1.0\\data\\uploads\\Client_Contracts_Policies_and_Incident_Records.pdf",
+  "source": "/Users/vanshbalani/Desktop/FullStackGenAI/Class-39-MM-Rag-project/mm-rag-full-stack-genai-bootcamp-1.0/data/uploads/Client_Contracts_Policies_and_Incident_Records.pdf",
   "page_number": 4,
   "content_type": "page_text_plus_ocr",
   "image_count": 0,
-  "page_image_path": "C:\\Users\\Sunny\\mm-rag-full-stack-genai-bootcamp-1.0\\data\\parsed_pdf_output\\Client_Contracts_Policies_and_Incident_Records\\page_images\\page_004.png"
+  "page_image_path": "/Users/vanshbalani/Desktop/FullStackGenAI/Class-39-MM-Rag-project/mm-rag-full-stack-genai-bootcamp-1.0/data/parsed_pdf_output/Client_Contracts_Policies_and_Incident_Records/page_images/page_004.png"
 }
 ```
 
@@ -454,11 +454,11 @@ Complex RAG Parsing Sample - synthetic document Page 4
 Metadata:
 ```json
 {
-  "source": "C:\\Users\\Sunny\\mm-rag-full-stack-genai-bootcamp-1.0\\data\\uploads\\Client_Contracts_Policies_and_Incident_Records.pdf",
+  "source": "/Users/vanshbalani/Desktop/FullStackGenAI/Class-39-MM-Rag-project/mm-rag-full-stack-genai-bootcamp-1.0/data/uploads/Client_Contracts_Policies_and_Incident_Records.pdf",
   "page_number": 5,
   "content_type": "page_text_plus_ocr",
   "image_count": 0,
-  "page_image_path": "C:\\Users\\Sunny\\mm-rag-full-stack-genai-bootcamp-1.0\\data\\parsed_pdf_output\\Client_Contracts_Policies_and_Incident_Records\\page_images\\page_005.png"
+  "page_image_path": "/Users/vanshbalani/Desktop/FullStackGenAI/Class-39-MM-Rag-project/mm-rag-full-stack-genai-bootcamp-1.0/data/parsed_pdf_output/Client_Contracts_Policies_and_Incident_Records/page_images/page_005.png"
 }
 ```
 
@@ -541,11 +541,11 @@ Complex RAG Parsing Sample - synthetic document Page 5
 Metadata:
 ```json
 {
-  "source": "C:\\Users\\Sunny\\mm-rag-full-stack-genai-bootcamp-1.0\\data\\uploads\\Client_Contracts_Policies_and_Incident_Records.pdf",
+  "source": "/Users/vanshbalani/Desktop/FullStackGenAI/Class-39-MM-Rag-project/mm-rag-full-stack-genai-bootcamp-1.0/data/uploads/Client_Contracts_Policies_and_Incident_Records.pdf",
   "page_number": 6,
   "content_type": "page_text_plus_ocr",
   "image_count": 0,
-  "page_image_path": "C:\\Users\\Sunny\\mm-rag-full-stack-genai-bootcamp-1.0\\data\\parsed_pdf_output\\Client_Contracts_Policies_and_Incident_Records\\page_images\\page_006.png"
+  "page_image_path": "/Users/vanshbalani/Desktop/FullStackGenAI/Class-39-MM-Rag-project/mm-rag-full-stack-genai-bootcamp-1.0/data/parsed_pdf_output/Client_Contracts_Policies_and_Incident_Records/page_images/page_006.png"
 }
 ```
 
@@ -630,7 +630,7 @@ stopped credit replay report
 Data Pipeline P3 - delayed 4 hours Next business day No automatic credit Batch ID and SLA exception
 batch note
 
-Support P2- urgent 1 hour 1 business day 2 percent support fee Support ticket with timestamps
+Support P2 - urgent 1 hour 1 business day 2 percent support fee Support ticket with timestamps
 support credit
 
 Footnote A: Service credits are not cumulative across the same service category for the same calendar month. Footnote B: Credits do not apply
@@ -649,11 +649,11 @@ Complex RAG Parsing Sample - synthetic document Page 6
 Metadata:
 ```json
 {
-  "source": "C:\\Users\\Sunny\\mm-rag-full-stack-genai-bootcamp-1.0\\data\\uploads\\Client_Contracts_Policies_and_Incident_Records.pdf",
+  "source": "/Users/vanshbalani/Desktop/FullStackGenAI/Class-39-MM-Rag-project/mm-rag-full-stack-genai-bootcamp-1.0/data/uploads/Client_Contracts_Policies_and_Incident_Records.pdf",
   "page_number": 7,
   "content_type": "page_text_plus_ocr",
   "image_count": 1,
-  "page_image_path": "C:\\Users\\Sunny\\mm-rag-full-stack-genai-bootcamp-1.0\\data\\parsed_pdf_output\\Client_Contracts_Policies_and_Incident_Records\\page_images\\page_007.png"
+  "page_image_path": "/Users/vanshbalani/Desktop/FullStackGenAI/Class-39-MM-Rag-project/mm-rag-full-stack-genai-bootcamp-1.0/data/parsed_pdf_output/Client_Contracts_Policies_and_Incident_Records/page_images/page_007.png"
 }
 ```
 
@@ -687,7 +687,6 @@ OCR TEXT:
 
 The diagram below represents the ingestion and retrieval flow. Some PDF parsers ignore images completely, while others
 extract image metadata but not the text inside the image. For production use, image content may require OCR or multimodal
-
 extraction.
 
 RAG Ingestion and Retrieval Flow
@@ -707,9 +706,7 @@ Box labels OCR or vision model Raw Files, Parser, Chunks, Vector DB
 Arrows Layout or vision understanding Processing order
 Caption Normal PDF text extraction Description of the diagram
 
-Complex RAG Parsing Sample - synthetic document
-
-Page 7
+Complex RAG Parsing Sample - synthetic document Page 7
 
 ---
 
@@ -719,11 +716,11 @@ Page 7
 Metadata:
 ```json
 {
-  "source": "C:\\Users\\Sunny\\mm-rag-full-stack-genai-bootcamp-1.0\\data\\uploads\\Client_Contracts_Policies_and_Incident_Records.pdf",
+  "source": "/Users/vanshbalani/Desktop/FullStackGenAI/Class-39-MM-Rag-project/mm-rag-full-stack-genai-bootcamp-1.0/data/uploads/Client_Contracts_Policies_and_Incident_Records.pdf",
   "page_number": 8,
   "content_type": "page_text_plus_ocr",
   "image_count": 0,
-  "page_image_path": "C:\\Users\\Sunny\\mm-rag-full-stack-genai-bootcamp-1.0\\data\\parsed_pdf_output\\Client_Contracts_Policies_and_Incident_Records\\page_images\\page_008.png"
+  "page_image_path": "/Users/vanshbalani/Desktop/FullStackGenAI/Class-39-MM-Rag-project/mm-rag-full-stack-genai-bootcamp-1.0/data/parsed_pdf_output/Client_Contracts_Policies_and_Incident_Records/page_images/page_008.png"
 }
 ```
 
@@ -779,13 +776,14 @@ exported to PDF, the structure may become visual rather than semantic.
 
 ## Recovery Steps
 
-1. Confirm the object exists in document storage.
-
+1.
 . Re-run parser with °safe_mode=True’.
 
 . Rebuild chunks with the previous chunking configuration.
 . Compare chunk count with the last successful ingestion.
 . Trigger re-embedding only for changed chunks.
+
+Confirm the object exists in document storage.
 
 A good parser should preserve code block boundaries and avoid mixing numbered steps with surrounding prose. In RAG,
 runbooks are useful because users often ask operational questions that require exact steps.
@@ -794,7 +792,9 @@ Title Contract Ingestion Failure Should become section title metadata
 Symptoms Five bullet items Should remain as list or separate lines
 Recovery Steps Numbered sequence Order must be preserved
 
-Complex RAG Parsing Sample - synthetic document Page 8
+Complex RAG Parsing Sample - synthetic document
+
+Page 8
 
 ---
 
@@ -804,11 +804,11 @@ Complex RAG Parsing Sample - synthetic document Page 8
 Metadata:
 ```json
 {
-  "source": "C:\\Users\\Sunny\\mm-rag-full-stack-genai-bootcamp-1.0\\data\\uploads\\Client_Contracts_Policies_and_Incident_Records.pdf",
+  "source": "/Users/vanshbalani/Desktop/FullStackGenAI/Class-39-MM-Rag-project/mm-rag-full-stack-genai-bootcamp-1.0/data/uploads/Client_Contracts_Policies_and_Incident_Records.pdf",
   "page_number": 9,
   "content_type": "page_text_plus_ocr",
   "image_count": 1,
-  "page_image_path": "C:\\Users\\Sunny\\mm-rag-full-stack-genai-bootcamp-1.0\\data\\parsed_pdf_output\\Client_Contracts_Policies_and_Incident_Records\\page_images\\page_009.png"
+  "page_image_path": "/Users/vanshbalani/Desktop/FullStackGenAI/Class-39-MM-Rag-project/mm-rag-full-stack-genai-bootcamp-1.0/data/parsed_pdf_output/Client_Contracts_Policies_and_Incident_Records/page_images/page_009.png"
 }
 ```
 
@@ -853,7 +853,7 @@ Client Name: BlueLeaf Retail Pvt Ltd
 
 Contract ID: BLR-MSA-2026-019
 
-Effective Date: 01 Apr 2026
+Effective Date: O1 Apr 2026
 
 Renewal Type: Auto renewal with 60 day notice
 
@@ -861,7 +861,7 @@ Data Region: india - South
 
 Reviewer: K. Mehta
 
-vid Approved for ingestion after Pil masking
+vi Approved for ingestion after Pll masking
 
 Caption: The form includes fields such as Client Name, Contract ID, Effective Date, Renewal Type, Data Region, Reviewer, and a checkbox
 
@@ -887,11 +887,11 @@ Complex RAG Parsing Sample - synthetic document Page 9
 Metadata:
 ```json
 {
-  "source": "C:\\Users\\Sunny\\mm-rag-full-stack-genai-bootcamp-1.0\\data\\uploads\\Client_Contracts_Policies_and_Incident_Records.pdf",
+  "source": "/Users/vanshbalani/Desktop/FullStackGenAI/Class-39-MM-Rag-project/mm-rag-full-stack-genai-bootcamp-1.0/data/uploads/Client_Contracts_Policies_and_Incident_Records.pdf",
   "page_number": 10,
   "content_type": "page_text_plus_ocr",
   "image_count": 0,
-  "page_image_path": "C:\\Users\\Sunny\\mm-rag-full-stack-genai-bootcamp-1.0\\data\\parsed_pdf_output\\Client_Contracts_Policies_and_Incident_Records\\page_images\\page_010.png"
+  "page_image_path": "/Users/vanshbalani/Desktop/FullStackGenAI/Class-39-MM-Rag-project/mm-rag-full-stack-genai-bootcamp-1.0/data/parsed_pdf_output/Client_Contracts_Policies_and_Incident_Records/page_images/page_010.png"
 }
 ```
 
@@ -956,7 +956,8 @@ BLR-NDA-002 NDA BLR-ACME-2026
 BLR-SOW-003 Statement of Work BLR-ACME-2026
 
 BLR-PRICE-004 Pricing Amendment BLR-ACME-2026
-BLR-SLA-005 ‘Support SLA BLR-ACME-2026
+
+BLR-SLA-005 Support SLA BLR-ACME-2026
 
 2026-04-01
 
@@ -991,11 +992,11 @@ Page 10
 Metadata:
 ```json
 {
-  "source": "C:\\Users\\Sunny\\mm-rag-full-stack-genai-bootcamp-1.0\\data\\uploads\\Client_Contracts_Policies_and_Incident_Records.pdf",
+  "source": "/Users/vanshbalani/Desktop/FullStackGenAI/Class-39-MM-Rag-project/mm-rag-full-stack-genai-bootcamp-1.0/data/uploads/Client_Contracts_Policies_and_Incident_Records.pdf",
   "page_number": 11,
   "content_type": "page_text_plus_ocr",
   "image_count": 0,
-  "page_image_path": "C:\\Users\\Sunny\\mm-rag-full-stack-genai-bootcamp-1.0\\data\\parsed_pdf_output\\Client_Contracts_Policies_and_Incident_Records\\page_images\\page_011.png"
+  "page_image_path": "/Users/vanshbalani/Desktop/FullStackGenAI/Class-39-MM-Rag-project/mm-rag-full-stack-genai-bootcamp-1.0/data/parsed_pdf_output/Client_Contracts_Policies_and_Incident_Records/page_images/page_011.png"
 }
 ```
 
@@ -1062,11 +1063,11 @@ Complex RAG Parsing Sample - synthetic document Page 11
 Metadata:
 ```json
 {
-  "source": "C:\\Users\\Sunny\\mm-rag-full-stack-genai-bootcamp-1.0\\data\\uploads\\Client_Contracts_Policies_and_Incident_Records.pdf",
+  "source": "/Users/vanshbalani/Desktop/FullStackGenAI/Class-39-MM-Rag-project/mm-rag-full-stack-genai-bootcamp-1.0/data/uploads/Client_Contracts_Policies_and_Incident_Records.pdf",
   "page_number": 12,
   "content_type": "page_text_plus_ocr",
   "image_count": 1,
-  "page_image_path": "C:\\Users\\Sunny\\mm-rag-full-stack-genai-bootcamp-1.0\\data\\parsed_pdf_output\\Client_Contracts_Policies_and_Incident_Records\\page_images\\page_012.png"
+  "page_image_path": "/Users/vanshbalani/Desktop/FullStackGenAI/Class-39-MM-Rag-project/mm-rag-full-stack-genai-bootcamp-1.0/data/parsed_pdf_output/Client_Contracts_Policies_and_Incident_Records/page_images/page_012.png"
 }
 ```
 
@@ -1111,7 +1112,7 @@ Evening
 
 Prime
 
-Prime Friday performs best 98 retention score Place premium content in Friday late/prime slots
+Prime Friday performs best 9 retention score Place premium content in Friday late/prime slots
 Early week late slots 10 to 21 score range Avoid launching new series in weak slots
 underperform
 
@@ -1120,7 +1121,7 @@ Evening improves midweek 77 on Wednesday evening Use midweek evening for discove
 For RAG, chart captions should be indexed. If chart values are critical, extract them into structured metadata or a
 companion table.
 
-Complex RAG Parsing Sample - synthetic document Page 12
+Complex RAG Parsing Sample - synthetic document Page 12,
 
 ---
 
@@ -1130,11 +1131,11 @@ Complex RAG Parsing Sample - synthetic document Page 12
 Metadata:
 ```json
 {
-  "source": "C:\\Users\\Sunny\\mm-rag-full-stack-genai-bootcamp-1.0\\data\\uploads\\Client_Contracts_Policies_and_Incident_Records.pdf",
+  "source": "/Users/vanshbalani/Desktop/FullStackGenAI/Class-39-MM-Rag-project/mm-rag-full-stack-genai-bootcamp-1.0/data/uploads/Client_Contracts_Policies_and_Incident_Records.pdf",
   "page_number": 13,
   "content_type": "page_text_plus_ocr",
   "image_count": 0,
-  "page_image_path": "C:\\Users\\Sunny\\mm-rag-full-stack-genai-bootcamp-1.0\\data\\parsed_pdf_output\\Client_Contracts_Policies_and_Incident_Records\\page_images\\page_013.png"
+  "page_image_path": "/Users/vanshbalani/Desktop/FullStackGenAI/Class-39-MM-Rag-project/mm-rag-full-stack-genai-bootcamp-1.0/data/parsed_pdf_output/Client_Contracts_Policies_and_Incident_Records/page_images/page_013.png"
 }
 ```
 
@@ -1189,17 +1190,17 @@ OCR TEXT:
 A RAG system should be evaluated separately for retrieval quality and answer quality. This page includes a miniature
 evaluation set with expected source references. It is useful for testing whether citations point to the correct section.
 
-001 What is the refund window? Policy Rules table 7 days Answer says 30 days
+Q.001 What is the refund window? Policy Rules table 7 days Answer says 30 days
 
-Q.002 Which clause covers data Clause 9.1 Approved processing region _ No clause citation
+Q.002 Which clause covers data Clause 9.1 Approved processing region _No clause citation
 residency?
 
-2-003 What is P1 API response target? SLA table. 15 minutes Wrong severity row
+2.003 What is P1 API response target? _—‘SLA table. 15 minutes Wrong severity row
 
 2-004 Which documents belong to Relationship table Five related documents Only one document
 BLR-ACME-2026? returned
 
-Q-005 Who owns access review? Policy Rules table Security Owner missing
+2-005 Who owns access review? Policy Rules table Security Owner missing
 
 Evaluation should include adversarial questions, unrelated questions, and questions that require multi-hop retrieval across
 related documents.
@@ -1214,11 +1215,11 @@ Complex RAG Parsing Sample - synthetic document Page 13,
 Metadata:
 ```json
 {
-  "source": "C:\\Users\\Sunny\\mm-rag-full-stack-genai-bootcamp-1.0\\data\\uploads\\Client_Contracts_Policies_and_Incident_Records.pdf",
+  "source": "/Users/vanshbalani/Desktop/FullStackGenAI/Class-39-MM-Rag-project/mm-rag-full-stack-genai-bootcamp-1.0/data/uploads/Client_Contracts_Policies_and_Incident_Records.pdf",
   "page_number": 14,
   "content_type": "page_text_plus_ocr",
   "image_count": 0,
-  "page_image_path": "C:\\Users\\Sunny\\mm-rag-full-stack-genai-bootcamp-1.0\\data\\parsed_pdf_output\\Client_Contracts_Policies_and_Incident_Records\\page_images\\page_014.png"
+  "page_image_path": "/Users/vanshbalani/Desktop/FullStackGenAI/Class-39-MM-Rag-project/mm-rag-full-stack-genai-bootcamp-1.0/data/parsed_pdf_output/Client_Contracts_Policies_and_Incident_Records/page_images/page_014.png"
 }
 ```
 
@@ -1265,7 +1266,7 @@ The following cases often break real document ingestion pipelines. They are incl
 quality before moving to embeddings and vector storage.
 
 Repeated headers and Page number, confidentiality banner Remove or store separately as metadata
-footers.
+footers,
 
 Hyphenated line breaks __termi- nation assistance Normalize during cleaning
 
@@ -1290,11 +1291,11 @@ Complex RAG Parsing Sample - synthetic document Page 14
 Metadata:
 ```json
 {
-  "source": "C:\\Users\\Sunny\\mm-rag-full-stack-genai-bootcamp-1.0\\data\\uploads\\Client_Contracts_Policies_and_Incident_Records.pdf",
+  "source": "/Users/vanshbalani/Desktop/FullStackGenAI/Class-39-MM-Rag-project/mm-rag-full-stack-genai-bootcamp-1.0/data/uploads/Client_Contracts_Policies_and_Incident_Records.pdf",
   "page_number": 15,
   "content_type": "page_text_plus_ocr",
   "image_count": 0,
-  "page_image_path": "C:\\Users\\Sunny\\mm-rag-full-stack-genai-bootcamp-1.0\\data\\parsed_pdf_output\\Client_Contracts_Policies_and_Incident_Records\\page_images\\page_015.png"
+  "page_image_path": "/Users/vanshbalani/Desktop/FullStackGenAI/Class-39-MM-Rag-project/mm-rag-full-stack-genai-bootcamp-1.0/data/parsed_pdf_output/Client_Contracts_Policies_and_Incident_Records/page_images/page_015.png"
 }
 ```
 
@@ -1376,11 +1377,11 @@ Complex RAG Parsing Sample - synthetic document Page 15,
 Metadata:
 ```json
 {
-  "source": "C:\\Users\\Sunny\\mm-rag-full-stack-genai-bootcamp-1.0\\data\\uploads\\Client_Contracts_Policies_and_Incident_Records.pdf",
+  "source": "/Users/vanshbalani/Desktop/FullStackGenAI/Class-39-MM-Rag-project/mm-rag-full-stack-genai-bootcamp-1.0/data/uploads/Client_Contracts_Policies_and_Incident_Records.pdf",
   "page_number": 16,
   "content_type": "page_text_plus_ocr",
   "image_count": 1,
-  "page_image_path": "C:\\Users\\Sunny\\mm-rag-full-stack-genai-bootcamp-1.0\\data\\parsed_pdf_output\\Client_Contracts_Policies_and_Incident_Records\\page_images\\page_016.png"
+  "page_image_path": "/Users/vanshbalani/Desktop/FullStackGenAI/Class-39-MM-Rag-project/mm-rag-full-stack-genai-bootcamp-1.0/data/parsed_pdf_output/Client_Contracts_Policies_and_Incident_Records/page_images/page_016.png"
 }
 ```
 
@@ -1407,21 +1408,21 @@ Parsing challenge: preserve row boundaries, nested headers, split cells, grouped
 
 the table.
 
-anu @ spit resporsipmy Cen where Owner anu DacKup are Snown insige ule Sammie row.
+anu @ Spit resporsipmy Cen where Owner anu DacKup are Snown insige ule Same row.
 
 Clause Group | Obligation Responsible Team Trigger Evidence Required | Risk |
 Data Protection Delete cient data after contract Owner Compliance Termination notice Deletion certificate + audit log | High
 termination unless retention is Backup Legal received export
 legally required.
 Notify client about any confirmed Owner Security Incident classified as Incident report, timeline, Critical
-data incident wahin 72 hours. Backup OPO confirmed breach ratification proof
-Billing Apply annual platform fee Owner Finance Renewal order approved | Approved renewal sheet + Medium
+data Incident wahin 72 hours. Backup 0PO confirmed breach ratification proof
+Billing ‘Apply annual platform fee Owner Finance Renewal order approved | Approved renewal sheet + | Medium
 adjustment only after renewal Backup CSM invoice craft
 confirmation.
 Do not bill inactive campuses Owner Revenue Ops Campus status = ERP campus status export High
 during suspension period. Beckup Finance suspended
-‘Support Provide P1 response within 30 Qwner Support L2 Ticket priorty = P1 Ticket timestamps + agent High
-minutes during school operating Backup Ops anager assignment log
+‘Support Provide P1 response within 30 Qwner Support L2 Ticket priority = P1 Ticket timestamps + agent High
+minutes during school operating Backup Ope mainager assignment log
 hours.
 Escalate unresolved P2 tickets Owner Support Lt Ticket age > 4 business | Escalation log Medium
 after 4 business hours, Backup Support L2 hours
@@ -1440,11 +1441,11 @@ Appendix page 1
 Metadata:
 ```json
 {
-  "source": "C:\\Users\\Sunny\\mm-rag-full-stack-genai-bootcamp-1.0\\data\\uploads\\Client_Contracts_Policies_and_Incident_Records.pdf",
+  "source": "/Users/vanshbalani/Desktop/FullStackGenAI/Class-39-MM-Rag-project/mm-rag-full-stack-genai-bootcamp-1.0/data/uploads/Client_Contracts_Policies_and_Incident_Records.pdf",
   "page_number": 17,
   "content_type": "page_text_plus_ocr",
   "image_count": 1,
-  "page_image_path": "C:\\Users\\Sunny\\mm-rag-full-stack-genai-bootcamp-1.0\\data\\parsed_pdf_output\\Client_Contracts_Policies_and_Incident_Records\\page_images\\page_017.png"
+  "page_image_path": "/Users/vanshbalani/Desktop/FullStackGenAI/Class-39-MM-Rag-project/mm-rag-full-stack-genai-bootcamp-1.0/data/parsed_pdf_output/Client_Contracts_Policies_and_Incident_Records/page_images/page_017.png"
 }
 ```
 
@@ -1499,19 +1500,19 @@ Base INR TIL | usb 18,000
 Support INR 1.4L
 
 Base ‘Custom Custom
-Support —_Incided
+Support Incided
 
 Discount may apply after approval
 
-| Usage Add-ons
+| Usage Add-ons.
 
-isms WhatsApp
+sms WhatsApp
 
 INR 0.18/message INR 0.42/message
 INR 0.15/message INR 0.38/message
-Negotiated "Negotiated
+Negotiated | Negotiated
 
-No discount on pass-through cost
+‘No discount on pass-through cost
 
 Table 2: Added as complex parsing appendix for table extraction, OCR fallback, and layout-aware RAG testing.
 
@@ -1528,7 +1529,7 @@ Signed order form
 required
 
 Requires CFO
-‘approval
+approval
 
 Appendix page 2
 
@@ -1540,11 +1541,11 @@ Appendix page 2
 Metadata:
 ```json
 {
-  "source": "C:\\Users\\Sunny\\mm-rag-full-stack-genai-bootcamp-1.0\\data\\uploads\\Client_Contracts_Policies_and_Incident_Records.pdf",
+  "source": "/Users/vanshbalani/Desktop/FullStackGenAI/Class-39-MM-Rag-project/mm-rag-full-stack-genai-bootcamp-1.0/data/uploads/Client_Contracts_Policies_and_Incident_Records.pdf",
   "page_number": 18,
   "content_type": "page_text_plus_ocr",
   "image_count": 1,
-  "page_image_path": "C:\\Users\\Sunny\\mm-rag-full-stack-genai-bootcamp-1.0\\data\\parsed_pdf_output\\Client_Contracts_Policies_and_Incident_Records\\page_images\\page_018.png"
+  "page_image_path": "/Users/vanshbalani/Desktop/FullStackGenAI/Class-39-MM-Rag-project/mm-rag-full-stack-genai-bootcamp-1.0/data/parsed_pdf_output/Client_Contracts_Policies_and_Incident_Records/page_images/page_018.png"
 }
 ```
 
@@ -1568,12 +1569,11 @@ Invoice-style line item table with item groups, quantity, rate, CGST/SGST split,
 for invoice parsing and tax extraction tests.
 
 Parsing challenge: preserve row boundaries, nested headers, split cells, grouped labels, numeric values, and footnotes/context around
-
 the table.
 
-ERP Platform ‘Annual School360 Enterprise Subscription » | 1 INR 11,00,000 9% 9% INR 12,98,000
+ERP Piatform ‘Annual School360 Enterprise Subscription » | 1 INR 11,00,000 9% 9% INR 12,98,000
 12 campuses
-Parent communication add-on - estimated 2,00,000 INR 0.38/msg 9% 9% INR 89,680
+Parent communication add-on - estimated | 2,00,000 INR 0.38/msg 9% 9% INR 89,680
 message pack
 
 Implementation Data migration + training + go-live support 1 INR 2,40,000 9% 9% INR 2,83,200
@@ -1582,9 +1582,7 @@ Implementation Data migration + training + go-live support 1 INR 2,40,000 9% 9% 
 
 Table 3: Added as complex parsing appendix for table extraction, OCR fallback, and layout-aware RAG testing.
 
-Complex RAG Parsing Sample - appended complex tables
-
-Appendix page 3
+Complex RAG Parsing Sample - appended complex tables Appendix page 3
 
 ---
 
@@ -1594,11 +1592,11 @@ Appendix page 3
 Metadata:
 ```json
 {
-  "source": "C:\\Users\\Sunny\\mm-rag-full-stack-genai-bootcamp-1.0\\data\\uploads\\Client_Contracts_Policies_and_Incident_Records.pdf",
+  "source": "/Users/vanshbalani/Desktop/FullStackGenAI/Class-39-MM-Rag-project/mm-rag-full-stack-genai-bootcamp-1.0/data/uploads/Client_Contracts_Policies_and_Incident_Records.pdf",
   "page_number": 19,
   "content_type": "page_text_plus_ocr",
   "image_count": 1,
-  "page_image_path": "C:\\Users\\Sunny\\mm-rag-full-stack-genai-bootcamp-1.0\\data\\parsed_pdf_output\\Client_Contracts_Policies_and_Incident_Records\\page_images\\page_019.png"
+  "page_image_path": "/Users/vanshbalani/Desktop/FullStackGenAI/Class-39-MM-Rag-project/mm-rag-full-stack-genai-bootcamp-1.0/data/parsed_pdf_output/Client_Contracts_Policies_and_Incident_Records/page_images/page_019.png"
 }
 ```
 
@@ -1633,7 +1631,7 @@ Contracts
 RAG-ready
 Chunks
 
-‘Scanned
+Scanned
 Invoices
 
 + Metadata
@@ -1641,7 +1639,7 @@ Invoices
 Excel / CSV
 Metadata
 
-Expected extraction: content blocks with source file, page. section, modality. and confidence score.
+Expected extraction: content blocks with source file, page. section, modality, and confidence score.
 
 Added at the end for complex image parsing, OCR fallback, layout-aware extraction, and multimodal RAG testing.
 
@@ -1655,11 +1653,11 @@ Complex RAG Parsing Sample - appended visuals and scanned documents Appendix pag
 Metadata:
 ```json
 {
-  "source": "C:\\Users\\Sunny\\mm-rag-full-stack-genai-bootcamp-1.0\\data\\uploads\\Client_Contracts_Policies_and_Incident_Records.pdf",
+  "source": "/Users/vanshbalani/Desktop/FullStackGenAI/Class-39-MM-Rag-project/mm-rag-full-stack-genai-bootcamp-1.0/data/uploads/Client_Contracts_Policies_and_Incident_Records.pdf",
   "page_number": 20,
   "content_type": "page_text_plus_ocr",
   "image_count": 1,
-  "page_image_path": "C:\\Users\\Sunny\\mm-rag-full-stack-genai-bootcamp-1.0\\data\\parsed_pdf_output\\Client_Contracts_Policies_and_Incident_Records\\page_images\\page_020.png"
+  "page_image_path": "/Users/vanshbalani/Desktop/FullStackGenAI/Class-39-MM-Rag-project/mm-rag-full-stack-genai-bootcamp-1.0/data/parsed_pdf_output/Client_Contracts_Policies_and_Incident_Records/page_images/page_020.png"
 }
 ```
 
@@ -1691,17 +1689,17 @@ Open Contract Risks by Month
 
 45
 
-I High risk: 12 clauses
+Hl High risk: 12 clauses
 [Ml Medium risk: 21 clauses
 
-I Low risk: 45 clauses
+[Low risk: 45 clauses
 
-nfo Jones me
+fr [oe Jones me
 Arka 17 4
 
 Legal
 BlueLeaf 22 6 Procurement
-CityRide 16 2 Ops
+Cityride 16 2 Ops
 
 Expected extraction: chart title, series values, legend labels, table values, and risk summary.
 
@@ -1717,11 +1715,11 @@ Complex RAG Parsing Sample - appended visuals and scanned documents Appendix pag
 Metadata:
 ```json
 {
-  "source": "C:\\Users\\Sunny\\mm-rag-full-stack-genai-bootcamp-1.0\\data\\uploads\\Client_Contracts_Policies_and_Incident_Records.pdf",
+  "source": "/Users/vanshbalani/Desktop/FullStackGenAI/Class-39-MM-Rag-project/mm-rag-full-stack-genai-bootcamp-1.0/data/uploads/Client_Contracts_Policies_and_Incident_Records.pdf",
   "page_number": 21,
   "content_type": "page_text_plus_ocr",
   "image_count": 1,
-  "page_image_path": "C:\\Users\\Sunny\\mm-rag-full-stack-genai-bootcamp-1.0\\data\\parsed_pdf_output\\Client_Contracts_Policies_and_Incident_Records\\page_images\\page_021.png"
+  "page_image_path": "/Users/vanshbalani/Desktop/FullStackGenAI/Class-39-MM-Rag-project/mm-rag-full-stack-genai-bootcamp-1.0/data/parsed_pdf_output/Client_Contracts_Policies_and_Incident_Records/page_images/page_021.png"
 }
 ```
 
@@ -1752,11 +1750,11 @@ LLM gateway.
 Visual Appendix 3: Data Lineage and Access Boundary
 Parsing challenge: diagram text must be OCRed and mapped to relationships.
 
-[ctient Upload|—sefure Object Stpre—ingestion Workpr—valctor Namesp:
+[ctient Upload|—sofure Object Stpre—igestion Workpr—valctor Namesp:
 
-client id document_id
+client_id document_id
 
-Auth Service| —Query Router, LLM Gateway
+Auth Service| (Query Router, LLM Gateway
 
 before LLM context creation.
 
@@ -1772,11 +1770,11 @@ Complex RAG Parsing Sample - appended visuals and scanned documents Appendix pag
 Metadata:
 ```json
 {
-  "source": "C:\\Users\\Sunny\\mm-rag-full-stack-genai-bootcamp-1.0\\data\\uploads\\Client_Contracts_Policies_and_Incident_Records.pdf",
+  "source": "/Users/vanshbalani/Desktop/FullStackGenAI/Class-39-MM-Rag-project/mm-rag-full-stack-genai-bootcamp-1.0/data/uploads/Client_Contracts_Policies_and_Incident_Records.pdf",
   "page_number": 22,
   "content_type": "page_text_plus_ocr",
   "image_count": 1,
-  "page_image_path": "C:\\Users\\Sunny\\mm-rag-full-stack-genai-bootcamp-1.0\\data\\parsed_pdf_output\\Client_Contracts_Policies_and_Incident_Records\\page_images\\page_022.png"
+  "page_image_path": "/Users/vanshbalani/Desktop/FullStackGenAI/Class-39-MM-Rag-project/mm-rag-full-stack-genai-bootcamp-1.0/data/parsed_pdf_output/Client_Contracts_Policies_and_Incident_Records/page_images/page_022.png"
 }
 ```
 
@@ -1796,27 +1794,19 @@ Added at the end for complex image parsing, OCR fallback, layout-aware extractio
 
 OCR TEXT:
 Appendix G: Additional Scanned Invoice for OCR
-
 Testing
 
 Synthetic scanned tax invoice with vendor details, customer details, invoice number, GSTIN, line items, tax split,
-
-total amount, payment terms, footer notes, approval stamp, and handwi
-
-rritten-style receipt text.
+total amount, payment terms, footer notes, approval stamp, and handwritten-style receipt text.
 
 Parsing challenge: this page is intentionally embedded as an image-like scan. A normal text parser may miss invoice values
-
 unless OCR is enabled.
 
 SCANNED TAX INVOICE
 
-BlueLeaf Cloud Billing Services
-GSTIN: 29AABCT2026P1Z8
+BlueLeaf Cloud Billing Services No: INV-BLR-2026-0718
 
-No: INV-BLR-2026-0718
-
-Date: 18 Jul 2026
+GSTIN: 29AABCT2026P1Z8 Date: 18 Jul 2026
 
 Bill To:
 
@@ -1828,20 +1818,10 @@ Line Items
 
 Rate
 
-Annual platform subscription
+Annual platform subscription INR 95,000
+Implementation and onboarding INR 22,500
 
-Implementation and onboarding
-
-‘Support add-on / message pack
-
-Payment Terms:
-Due within 15 days. Late fee may apply after due date.
-
-INR 95,000
-
-INR 22,500
-
-INR 0.40
+‘Support add-on / message pack INR 0.40
 
 Subtotal: INR 118,900
 CGST 9%: INR 10,701
@@ -1849,18 +1829,19 @@ SGST 9%: INR 10,701
 
 Total Amount:NR 140,302
 
+Payment Terms:
+
+Due within 15 days. Late fee may apply after due date.
 Footer note: Amount includes taxes unless separately mentioned.
 OCR challenge: faint stamp, rotated page, table lines, and handwritten approval.
 
-Received by: K. Mehta
-
 APPROVED
+
+Received by: K. Mehta
 
 Added at the end for complex image parsing, OCR fallback, layout-aware extraction, and multimodal RAG testing.
 
-Complex RAG Parsing Sample - appended visuals and scanned documents
-
-Appendix page 4
+Complex RAG Parsing Sample - appended visuals and scanned documents Appendix page 4
 
 ---
 
@@ -1870,11 +1851,11 @@ Appendix page 4
 Metadata:
 ```json
 {
-  "source": "C:\\Users\\Sunny\\mm-rag-full-stack-genai-bootcamp-1.0\\data\\uploads\\Client_Contracts_Policies_and_Incident_Records.pdf",
+  "source": "/Users/vanshbalani/Desktop/FullStackGenAI/Class-39-MM-Rag-project/mm-rag-full-stack-genai-bootcamp-1.0/data/uploads/Client_Contracts_Policies_and_Incident_Records.pdf",
   "page_number": 23,
   "content_type": "page_text_plus_ocr",
   "image_count": 1,
-  "page_image_path": "C:\\Users\\Sunny\\mm-rag-full-stack-genai-bootcamp-1.0\\data\\parsed_pdf_output\\Client_Contracts_Policies_and_Incident_Records\\page_images\\page_023.png"
+  "page_image_path": "/Users/vanshbalani/Desktop/FullStackGenAI/Class-39-MM-Rag-project/mm-rag-full-stack-genai-bootcamp-1.0/data/parsed_pdf_output/Client_Contracts_Policies_and_Incident_Records/page_images/page_023.png"
 }
 ```
 
@@ -1926,7 +1907,7 @@ Description
 
 Rate
 
-Amount
+‘Amount.
 
 Electricity fixed charges
 
@@ -1970,13 +1951,13 @@ INR 10,278
 INR 925
 INR 925
 
+Total Amount:INR 12,128
+
 APPROVED
 
 Added at the end for complex image parsing, OCR fallback, layout-aware extraction, and multimodal RAG testing.
 
 Complex RAG Parsing Sample - appended visuals and scanned documents
-
-Total Amount:INR 12,128
 
 Appendix page 5
 
@@ -1988,11 +1969,11 @@ Appendix page 5
 Metadata:
 ```json
 {
-  "source": "C:\\Users\\Sunny\\mm-rag-full-stack-genai-bootcamp-1.0\\data\\uploads\\Client_Contracts_Policies_and_Incident_Records.pdf",
+  "source": "/Users/vanshbalani/Desktop/FullStackGenAI/Class-39-MM-Rag-project/mm-rag-full-stack-genai-bootcamp-1.0/data/uploads/Client_Contracts_Policies_and_Incident_Records.pdf",
   "page_number": 24,
   "content_type": "page_text_plus_ocr",
   "image_count": 1,
-  "page_image_path": "C:\\Users\\Sunny\\mm-rag-full-stack-genai-bootcamp-1.0\\data\\parsed_pdf_output\\Client_Contracts_Policies_and_Incident_Records\\page_images\\page_024.png"
+  "page_image_path": "/Users/vanshbalani/Desktop/FullStackGenAI/Class-39-MM-Rag-project/mm-rag-full-stack-genai-bootcamp-1.0/data/parsed_pdf_output/Client_Contracts_Policies_and_Incident_Records/page_images/page_024.png"
 }
 ```
 
@@ -2070,7 +2051,7 @@ Complex RAG Parsing Sample - appended instructor image Appendix page 6
 Metadata:
 ```json
 {
-  "source": "C:\\Users\\Sunny\\mm-rag-full-stack-genai-bootcamp-1.0\\data\\uploads\\Client_Contracts_Policies_and_Incident_Records.pdf",
+  "source": "/Users/vanshbalani/Desktop/FullStackGenAI/Class-39-MM-Rag-project/mm-rag-full-stack-genai-bootcamp-1.0/data/uploads/Client_Contracts_Policies_and_Incident_Records.pdf",
   "page_number": 1,
   "content_type": "table",
   "table_index": 1
@@ -2101,7 +2082,7 @@ TABLE MARKDOWN:
 Metadata:
 ```json
 {
-  "source": "C:\\Users\\Sunny\\mm-rag-full-stack-genai-bootcamp-1.0\\data\\uploads\\Client_Contracts_Policies_and_Incident_Records.pdf",
+  "source": "/Users/vanshbalani/Desktop/FullStackGenAI/Class-39-MM-Rag-project/mm-rag-full-stack-genai-bootcamp-1.0/data/uploads/Client_Contracts_Policies_and_Incident_Records.pdf",
   "page_number": 2,
   "content_type": "table",
   "table_index": 1
@@ -2129,7 +2110,7 @@ TABLE MARKDOWN:
 Metadata:
 ```json
 {
-  "source": "C:\\Users\\Sunny\\mm-rag-full-stack-genai-bootcamp-1.0\\data\\uploads\\Client_Contracts_Policies_and_Incident_Records.pdf",
+  "source": "/Users/vanshbalani/Desktop/FullStackGenAI/Class-39-MM-Rag-project/mm-rag-full-stack-genai-bootcamp-1.0/data/uploads/Client_Contracts_Policies_and_Incident_Records.pdf",
   "page_number": 3,
   "content_type": "table",
   "table_index": 1
@@ -2166,7 +2147,7 @@ TABLE MARKDOWN:
 Metadata:
 ```json
 {
-  "source": "C:\\Users\\Sunny\\mm-rag-full-stack-genai-bootcamp-1.0\\data\\uploads\\Client_Contracts_Policies_and_Incident_Records.pdf",
+  "source": "/Users/vanshbalani/Desktop/FullStackGenAI/Class-39-MM-Rag-project/mm-rag-full-stack-genai-bootcamp-1.0/data/uploads/Client_Contracts_Policies_and_Incident_Records.pdf",
   "page_number": 4,
   "content_type": "table",
   "table_index": 1
@@ -2195,7 +2176,7 @@ TABLE MARKDOWN:
 Metadata:
 ```json
 {
-  "source": "C:\\Users\\Sunny\\mm-rag-full-stack-genai-bootcamp-1.0\\data\\uploads\\Client_Contracts_Policies_and_Incident_Records.pdf",
+  "source": "/Users/vanshbalani/Desktop/FullStackGenAI/Class-39-MM-Rag-project/mm-rag-full-stack-genai-bootcamp-1.0/data/uploads/Client_Contracts_Policies_and_Incident_Records.pdf",
   "page_number": 5,
   "content_type": "table",
   "table_index": 1
@@ -2226,7 +2207,7 @@ TABLE MARKDOWN:
 Metadata:
 ```json
 {
-  "source": "C:\\Users\\Sunny\\mm-rag-full-stack-genai-bootcamp-1.0\\data\\uploads\\Client_Contracts_Policies_and_Incident_Records.pdf",
+  "source": "/Users/vanshbalani/Desktop/FullStackGenAI/Class-39-MM-Rag-project/mm-rag-full-stack-genai-bootcamp-1.0/data/uploads/Client_Contracts_Policies_and_Incident_Records.pdf",
   "page_number": 6,
   "content_type": "table",
   "table_index": 1
@@ -2259,7 +2240,7 @@ TABLE MARKDOWN:
 Metadata:
 ```json
 {
-  "source": "C:\\Users\\Sunny\\mm-rag-full-stack-genai-bootcamp-1.0\\data\\uploads\\Client_Contracts_Policies_and_Incident_Records.pdf",
+  "source": "/Users/vanshbalani/Desktop/FullStackGenAI/Class-39-MM-Rag-project/mm-rag-full-stack-genai-bootcamp-1.0/data/uploads/Client_Contracts_Policies_and_Incident_Records.pdf",
   "page_number": 7,
   "content_type": "table",
   "table_index": 1
@@ -2285,7 +2266,7 @@ TABLE MARKDOWN:
 Metadata:
 ```json
 {
-  "source": "C:\\Users\\Sunny\\mm-rag-full-stack-genai-bootcamp-1.0\\data\\uploads\\Client_Contracts_Policies_and_Incident_Records.pdf",
+  "source": "/Users/vanshbalani/Desktop/FullStackGenAI/Class-39-MM-Rag-project/mm-rag-full-stack-genai-bootcamp-1.0/data/uploads/Client_Contracts_Policies_and_Incident_Records.pdf",
   "page_number": 8,
   "content_type": "table",
   "table_index": 1
@@ -2311,7 +2292,7 @@ TABLE MARKDOWN:
 Metadata:
 ```json
 {
-  "source": "C:\\Users\\Sunny\\mm-rag-full-stack-genai-bootcamp-1.0\\data\\uploads\\Client_Contracts_Policies_and_Incident_Records.pdf",
+  "source": "/Users/vanshbalani/Desktop/FullStackGenAI/Class-39-MM-Rag-project/mm-rag-full-stack-genai-bootcamp-1.0/data/uploads/Client_Contracts_Policies_and_Incident_Records.pdf",
   "page_number": 9,
   "content_type": "table",
   "table_index": 1
@@ -2340,7 +2321,7 @@ TABLE MARKDOWN:
 Metadata:
 ```json
 {
-  "source": "C:\\Users\\Sunny\\mm-rag-full-stack-genai-bootcamp-1.0\\data\\uploads\\Client_Contracts_Policies_and_Incident_Records.pdf",
+  "source": "/Users/vanshbalani/Desktop/FullStackGenAI/Class-39-MM-Rag-project/mm-rag-full-stack-genai-bootcamp-1.0/data/uploads/Client_Contracts_Policies_and_Incident_Records.pdf",
   "page_number": 10,
   "content_type": "table",
   "table_index": 1
@@ -2369,7 +2350,7 @@ TABLE MARKDOWN:
 Metadata:
 ```json
 {
-  "source": "C:\\Users\\Sunny\\mm-rag-full-stack-genai-bootcamp-1.0\\data\\uploads\\Client_Contracts_Policies_and_Incident_Records.pdf",
+  "source": "/Users/vanshbalani/Desktop/FullStackGenAI/Class-39-MM-Rag-project/mm-rag-full-stack-genai-bootcamp-1.0/data/uploads/Client_Contracts_Policies_and_Incident_Records.pdf",
   "page_number": 11,
   "content_type": "table",
   "table_index": 1
@@ -2397,7 +2378,7 @@ TABLE MARKDOWN:
 Metadata:
 ```json
 {
-  "source": "C:\\Users\\Sunny\\mm-rag-full-stack-genai-bootcamp-1.0\\data\\uploads\\Client_Contracts_Policies_and_Incident_Records.pdf",
+  "source": "/Users/vanshbalani/Desktop/FullStackGenAI/Class-39-MM-Rag-project/mm-rag-full-stack-genai-bootcamp-1.0/data/uploads/Client_Contracts_Policies_and_Incident_Records.pdf",
   "page_number": 12,
   "content_type": "table",
   "table_index": 1
@@ -2424,7 +2405,7 @@ TABLE MARKDOWN:
 Metadata:
 ```json
 {
-  "source": "C:\\Users\\Sunny\\mm-rag-full-stack-genai-bootcamp-1.0\\data\\uploads\\Client_Contracts_Policies_and_Incident_Records.pdf",
+  "source": "/Users/vanshbalani/Desktop/FullStackGenAI/Class-39-MM-Rag-project/mm-rag-full-stack-genai-bootcamp-1.0/data/uploads/Client_Contracts_Policies_and_Incident_Records.pdf",
   "page_number": 13,
   "content_type": "table",
   "table_index": 1
@@ -2454,7 +2435,7 @@ TABLE MARKDOWN:
 Metadata:
 ```json
 {
-  "source": "C:\\Users\\Sunny\\mm-rag-full-stack-genai-bootcamp-1.0\\data\\uploads\\Client_Contracts_Policies_and_Incident_Records.pdf",
+  "source": "/Users/vanshbalani/Desktop/FullStackGenAI/Class-39-MM-Rag-project/mm-rag-full-stack-genai-bootcamp-1.0/data/uploads/Client_Contracts_Policies_and_Incident_Records.pdf",
   "page_number": 14,
   "content_type": "table",
   "table_index": 1
@@ -2485,7 +2466,7 @@ TABLE MARKDOWN:
 Metadata:
 ```json
 {
-  "source": "C:\\Users\\Sunny\\mm-rag-full-stack-genai-bootcamp-1.0\\data\\uploads\\Client_Contracts_Policies_and_Incident_Records.pdf",
+  "source": "/Users/vanshbalani/Desktop/FullStackGenAI/Class-39-MM-Rag-project/mm-rag-full-stack-genai-bootcamp-1.0/data/uploads/Client_Contracts_Policies_and_Incident_Records.pdf",
   "page_number": 15,
   "content_type": "table",
   "table_index": 1
@@ -2518,7 +2499,7 @@ TABLE MARKDOWN:
 Metadata:
 ```json
 {
-  "source": "C:\\Users\\Sunny\\mm-rag-full-stack-genai-bootcamp-1.0\\data\\uploads\\Client_Contracts_Policies_and_Incident_Records.pdf",
+  "source": "/Users/vanshbalani/Desktop/FullStackGenAI/Class-39-MM-Rag-project/mm-rag-full-stack-genai-bootcamp-1.0/data/uploads/Client_Contracts_Policies_and_Incident_Records.pdf",
   "page_number": 24,
   "content_type": "table",
   "table_index": 1
@@ -2549,11 +2530,11 @@ TABLE MARKDOWN:
 Metadata:
 ```json
 {
-  "source": "C:\\Users\\Sunny\\mm-rag-full-stack-genai-bootcamp-1.0\\data\\uploads\\Client_Contracts_Policies_and_Incident_Records.pdf",
+  "source": "/Users/vanshbalani/Desktop/FullStackGenAI/Class-39-MM-Rag-project/mm-rag-full-stack-genai-bootcamp-1.0/data/uploads/Client_Contracts_Policies_and_Incident_Records.pdf",
   "page_number": 2,
   "content_type": "image",
   "image_index": 1,
-  "image_path": "C:\\Users\\Sunny\\mm-rag-full-stack-genai-bootcamp-1.0\\data\\parsed_pdf_output\\Client_Contracts_Policies_and_Incident_Records\\extracted_images\\page_002_image_1.png",
+  "image_path": "/Users/vanshbalani/Desktop/FullStackGenAI/Class-39-MM-Rag-project/mm-rag-full-stack-genai-bootcamp-1.0/data/parsed_pdf_output/Client_Contracts_Policies_and_Incident_Records/extracted_images/page_002_image_1.png",
   "image_ext": "png"
 }
 ```
@@ -2561,7 +2542,7 @@ Metadata:
 Content:
 IMAGE FOUND ON PAGE 2
 IMAGE INDEX: 1
-IMAGE PATH: C:\Users\Sunny\mm-rag-full-stack-genai-bootcamp-1.0\data\parsed_pdf_output\Client_Contracts_Policies_and_Incident_Records\extracted_images\page_002_image_1.png
+IMAGE PATH: /Users/vanshbalani/Desktop/FullStackGenAI/Class-39-MM-Rag-project/mm-rag-full-stack-genai-bootcamp-1.0/data/parsed_pdf_output/Client_Contracts_Policies_and_Incident_Records/extracted_images/page_002_image_1.png
 
 IMAGE OCR TEXT:
 Contract Processing Ownership Map
@@ -2578,11 +2559,11 @@ Vector DB Document Store
 Metadata:
 ```json
 {
-  "source": "C:\\Users\\Sunny\\mm-rag-full-stack-genai-bootcamp-1.0\\data\\uploads\\Client_Contracts_Policies_and_Incident_Records.pdf",
+  "source": "/Users/vanshbalani/Desktop/FullStackGenAI/Class-39-MM-Rag-project/mm-rag-full-stack-genai-bootcamp-1.0/data/uploads/Client_Contracts_Policies_and_Incident_Records.pdf",
   "page_number": 7,
   "content_type": "image",
   "image_index": 1,
-  "image_path": "C:\\Users\\Sunny\\mm-rag-full-stack-genai-bootcamp-1.0\\data\\parsed_pdf_output\\Client_Contracts_Policies_and_Incident_Records\\extracted_images\\page_007_image_1.png",
+  "image_path": "/Users/vanshbalani/Desktop/FullStackGenAI/Class-39-MM-Rag-project/mm-rag-full-stack-genai-bootcamp-1.0/data/parsed_pdf_output/Client_Contracts_Policies_and_Incident_Records/extracted_images/page_007_image_1.png",
   "image_ext": "png"
 }
 ```
@@ -2590,7 +2571,7 @@ Metadata:
 Content:
 IMAGE FOUND ON PAGE 7
 IMAGE INDEX: 1
-IMAGE PATH: C:\Users\Sunny\mm-rag-full-stack-genai-bootcamp-1.0\data\parsed_pdf_output\Client_Contracts_Policies_and_Incident_Records\extracted_images\page_007_image_1.png
+IMAGE PATH: /Users/vanshbalani/Desktop/FullStackGenAI/Class-39-MM-Rag-project/mm-rag-full-stack-genai-bootcamp-1.0/data/parsed_pdf_output/Client_Contracts_Policies_and_Incident_Records/extracted_images/page_007_image_1.png
 
 IMAGE OCR TEXT:
 RAG Ingestion and Retrieval Flow
@@ -2612,11 +2593,11 @@ Parsing challenge: each stage can improve or damage answer quality.
 Metadata:
 ```json
 {
-  "source": "C:\\Users\\Sunny\\mm-rag-full-stack-genai-bootcamp-1.0\\data\\uploads\\Client_Contracts_Policies_and_Incident_Records.pdf",
+  "source": "/Users/vanshbalani/Desktop/FullStackGenAI/Class-39-MM-Rag-project/mm-rag-full-stack-genai-bootcamp-1.0/data/uploads/Client_Contracts_Policies_and_Incident_Records.pdf",
   "page_number": 9,
   "content_type": "image",
   "image_index": 1,
-  "image_path": "C:\\Users\\Sunny\\mm-rag-full-stack-genai-bootcamp-1.0\\data\\parsed_pdf_output\\Client_Contracts_Policies_and_Incident_Records\\extracted_images\\page_009_image_1.png",
+  "image_path": "/Users/vanshbalani/Desktop/FullStackGenAI/Class-39-MM-Rag-project/mm-rag-full-stack-genai-bootcamp-1.0/data/parsed_pdf_output/Client_Contracts_Policies_and_Incident_Records/extracted_images/page_009_image_1.png",
   "image_ext": "png"
 }
 ```
@@ -2624,7 +2605,7 @@ Metadata:
 Content:
 IMAGE FOUND ON PAGE 9
 IMAGE INDEX: 1
-IMAGE PATH: C:\Users\Sunny\mm-rag-full-stack-genai-bootcamp-1.0\data\parsed_pdf_output\Client_Contracts_Policies_and_Incident_Records\extracted_images\page_009_image_1.png
+IMAGE PATH: /Users/vanshbalani/Desktop/FullStackGenAI/Class-39-MM-Rag-project/mm-rag-full-stack-genai-bootcamp-1.0/data/parsed_pdf_output/Client_Contracts_Policies_and_Incident_Records/extracted_images/page_009_image_1.png
 
 IMAGE OCR TEXT:
 Client Name:
@@ -2653,7 +2634,7 @@ india - South
 
 K. Mehta
 
-vid Approved for ingestion after Pll masking
+via Approved for ingestion after Pll masking
 
 ---
 
@@ -2663,11 +2644,11 @@ vid Approved for ingestion after Pll masking
 Metadata:
 ```json
 {
-  "source": "C:\\Users\\Sunny\\mm-rag-full-stack-genai-bootcamp-1.0\\data\\uploads\\Client_Contracts_Policies_and_Incident_Records.pdf",
+  "source": "/Users/vanshbalani/Desktop/FullStackGenAI/Class-39-MM-Rag-project/mm-rag-full-stack-genai-bootcamp-1.0/data/uploads/Client_Contracts_Policies_and_Incident_Records.pdf",
   "page_number": 12,
   "content_type": "image",
   "image_index": 1,
-  "image_path": "C:\\Users\\Sunny\\mm-rag-full-stack-genai-bootcamp-1.0\\data\\parsed_pdf_output\\Client_Contracts_Policies_and_Incident_Records\\extracted_images\\page_012_image_1.png",
+  "image_path": "/Users/vanshbalani/Desktop/FullStackGenAI/Class-39-MM-Rag-project/mm-rag-full-stack-genai-bootcamp-1.0/data/parsed_pdf_output/Client_Contracts_Policies_and_Incident_Records/extracted_images/page_012_image_1.png",
   "image_ext": "png"
 }
 ```
@@ -2675,7 +2656,7 @@ Metadata:
 Content:
 IMAGE FOUND ON PAGE 12
 IMAGE INDEX: 1
-IMAGE PATH: C:\Users\Sunny\mm-rag-full-stack-genai-bootcamp-1.0\data\parsed_pdf_output\Client_Contracts_Policies_and_Incident_Records\extracted_images\page_012_image_1.png
+IMAGE PATH: /Users/vanshbalani/Desktop/FullStackGenAI/Class-39-MM-Rag-project/mm-rag-full-stack-genai-bootcamp-1.0/data/parsed_pdf_output/Client_Contracts_Policies_and_Incident_Records/extracted_images/page_012_image_1.png
 
 IMAGE OCR TEXT:
 Viewer Retention Heatmap by Time Slot
@@ -2700,11 +2681,11 @@ Mon Tue Wed Thu Fri
 Metadata:
 ```json
 {
-  "source": "C:\\Users\\Sunny\\mm-rag-full-stack-genai-bootcamp-1.0\\data\\uploads\\Client_Contracts_Policies_and_Incident_Records.pdf",
+  "source": "/Users/vanshbalani/Desktop/FullStackGenAI/Class-39-MM-Rag-project/mm-rag-full-stack-genai-bootcamp-1.0/data/uploads/Client_Contracts_Policies_and_Incident_Records.pdf",
   "page_number": 16,
   "content_type": "image",
   "image_index": 1,
-  "image_path": "C:\\Users\\Sunny\\mm-rag-full-stack-genai-bootcamp-1.0\\data\\parsed_pdf_output\\Client_Contracts_Policies_and_Incident_Records\\extracted_images\\page_016_image_1.png",
+  "image_path": "/Users/vanshbalani/Desktop/FullStackGenAI/Class-39-MM-Rag-project/mm-rag-full-stack-genai-bootcamp-1.0/data/parsed_pdf_output/Client_Contracts_Policies_and_Incident_Records/extracted_images/page_016_image_1.png",
   "image_ext": "png"
 }
 ```
@@ -2712,32 +2693,32 @@ Metadata:
 Content:
 IMAGE FOUND ON PAGE 16
 IMAGE INDEX: 1
-IMAGE PATH: C:\Users\Sunny\mm-rag-full-stack-genai-bootcamp-1.0\data\parsed_pdf_output\Client_Contracts_Policies_and_Incident_Records\extracted_images\page_016_image_1.png
+IMAGE PATH: /Users/vanshbalani/Desktop/FullStackGenAI/Class-39-MM-Rag-project/mm-rag-full-stack-genai-bootcamp-1.0/data/parsed_pdf_output/Client_Contracts_Policies_and_Incident_Records/extracted_images/page_016_image_1.png
 
 IMAGE OCR TEXT:
-ae ennn mr en macnn NSN ON NONE ONS NEE DINE POLE II
+ener ee ce ey ON ENE ONL LE OES NIE
 
-Ca Crop [Obligation Responsible Team [rae Evidence Required [isk
-Data Protection | Dette loa ater comact | Owner —corprce | Termitonratice Deion cole + ad og | Hh
-forarsionitesracsrs | eaomp taps reared emer
+Cae Grp [Obligation Resporsiie Team [Fae Evidence Required [isk
+Data Protection | Dette lo dt ter comact | Owner —corprce | Termiwonratice Deion cole + ag | Hoh
+tcransioniiesracsrs | Gaomp —tapd reowed emer
 ‘Sy eaure
-Naty chs aout ay conned Owe Seay Tio csi as | nee epee, | Cea
-aa tcdennitia Shout | pocap evo Coeresacsct teeta
-iting ply aeu later foe | Oar anes Reneval rer aproved | Aprovedrenevalshea+ | Medan
-“rer ot ae veewal | Sadap oa toe at
+Naty cho aout aycotmed Owner Seay Icio cesified as niet ropon ein, | Cea
+tauatcteunitia Sous | wocap ovo Coatestacsch tite ea
+iting ply aeua later foe | Oar anes Renal rer aproved | Apyovedrenvalshea+ | Medan
+“rar ot ater veewal | Saeap ow toe at
 eatate
-Dora blinacive campuses (Ow Revue Op ERP campus sus expo High
-Sriyncpocbnpetal”—_|lmcap renee
-Support| Pro Presponse within 30 owner saot2—*| Tekst pity <1 Tedttvestamps agent igh
-Minas atngsctulopeettg Seep Se TSowen
+Dora blinacive campuses |OwnaRevus Ops ERP campus stu expo High
+Sahgncpocbnpeta—_|lmcap — ree
+Suppor | Pro Pesponse within 30 owner saort2—*( Tekst pity <1. Tedttrestamps x agent igh
+rinses tng actolopeettg Seep Se rowan
 roe
-Escalate uvesoved P2itaiS [Owner Sapp ——( Tet age 4 bss Escalon og Wed
+Escalate uvesoved P2iaiS [Owner Sapp | Tiett ge 4 bss Escalon og Wed
 
 ater 4 business hours
 
 cup
 
-Suppant.2
+Suppo 2
 
 hours
 
@@ -2749,11 +2730,11 @@ hours
 Metadata:
 ```json
 {
-  "source": "C:\\Users\\Sunny\\mm-rag-full-stack-genai-bootcamp-1.0\\data\\uploads\\Client_Contracts_Policies_and_Incident_Records.pdf",
+  "source": "/Users/vanshbalani/Desktop/FullStackGenAI/Class-39-MM-Rag-project/mm-rag-full-stack-genai-bootcamp-1.0/data/uploads/Client_Contracts_Policies_and_Incident_Records.pdf",
   "page_number": 17,
   "content_type": "image",
   "image_index": 1,
-  "image_path": "C:\\Users\\Sunny\\mm-rag-full-stack-genai-bootcamp-1.0\\data\\parsed_pdf_output\\Client_Contracts_Policies_and_Incident_Records\\extracted_images\\page_017_image_1.png",
+  "image_path": "/Users/vanshbalani/Desktop/FullStackGenAI/Class-39-MM-Rag-project/mm-rag-full-stack-genai-bootcamp-1.0/data/parsed_pdf_output/Client_Contracts_Policies_and_Incident_Records/extracted_images/page_017_image_1.png",
   "image_ext": "png"
 }
 ```
@@ -2761,22 +2742,22 @@ Metadata:
 Content:
 IMAGE FOUND ON PAGE 17
 IMAGE INDEX: 1
-IMAGE PATH: C:\Users\Sunny\mm-rag-full-stack-genai-bootcamp-1.0\data\parsed_pdf_output\Client_Contracts_Policies_and_Incident_Records\extracted_images\page_017_image_1.png
+IMAGE PATH: /Users/vanshbalani/Desktop/FullStackGenAI/Class-39-MM-Rag-project/mm-rag-full-stack-genai-bootcamp-1.0/data/parsed_pdf_output/Client_Contracts_Policies_and_Incident_Records/extracted_images/page_017_image_1.png
 
 IMAGE OCR TEXT:
 Plan ‘Student Volume Annual Platform Charges Usage Add-ons Billing Rule
 India Region Intemational | SMS Whatsapp
 
-Stanee 0-2.000suderss ase NR ASL sD 7.200 INRO.18imessage INRO.42Imessage | Quarterly advance
-Suppor WR GOK
+stanee 0-2.000 students ase NR ASL sD 7.200 INRO.18imessage | INRO.42Imessage | Quarterly advance
+Support NR GOK
 
-rome 2001-10.000sudents Gese RTI | USO 18,000 INRO.1Simessage INR O:message | SO% advance +
-Support INR AL monty usage
+Grow 2001-10.000sudenss Gese —NRTIL_———| USD 18,000 INRO.1Simessage INR O:message | SO% advance +
+Support INR 1A rmonihy usage
 
-Emerpise 10,001 students ase Cus =| Custom Negotiated Negatisted ‘Signed order frm
-Supper neue required
+Emerpise 10,001 students ase Custom =| Custom Negotiated Negoisted ‘Signed order frm
+Supper Inauded required
 
-Exception Government schools Discount may apply ater approval No escount on pass-through cost Requires CFO
+Exception | Government schools Discount may apply after approval No cscount on pass-through cost Requires CFO
 
 approve!
 
@@ -2788,11 +2769,11 @@ approve!
 Metadata:
 ```json
 {
-  "source": "C:\\Users\\Sunny\\mm-rag-full-stack-genai-bootcamp-1.0\\data\\uploads\\Client_Contracts_Policies_and_Incident_Records.pdf",
+  "source": "/Users/vanshbalani/Desktop/FullStackGenAI/Class-39-MM-Rag-project/mm-rag-full-stack-genai-bootcamp-1.0/data/uploads/Client_Contracts_Policies_and_Incident_Records.pdf",
   "page_number": 18,
   "content_type": "image",
   "image_index": 1,
-  "image_path": "C:\\Users\\Sunny\\mm-rag-full-stack-genai-bootcamp-1.0\\data\\parsed_pdf_output\\Client_Contracts_Policies_and_Incident_Records\\extracted_images\\page_018_image_1.png",
+  "image_path": "/Users/vanshbalani/Desktop/FullStackGenAI/Class-39-MM-Rag-project/mm-rag-full-stack-genai-bootcamp-1.0/data/parsed_pdf_output/Client_Contracts_Policies_and_Incident_Records/extracted_images/page_018_image_1.png",
   "image_ext": "png"
 }
 ```
@@ -2800,18 +2781,18 @@ Metadata:
 Content:
 IMAGE FOUND ON PAGE 18
 IMAGE INDEX: 1
-IMAGE PATH: C:\Users\Sunny\mm-rag-full-stack-genai-bootcamp-1.0\data\parsed_pdf_output\Client_Contracts_Policies_and_Incident_Records\extracted_images\page_018_image_1.png
+IMAGE PATH: /Users/vanshbalani/Desktop/FullStackGenAI/Class-39-MM-Rag-project/mm-rag-full-stack-genai-bootcamp-1.0/data/parsed_pdf_output/Client_Contracts_Policies_and_Incident_Records/extracted_images/page_018_image_1.png
 
 IMAGE OCR TEXT:
-Line tem
+Une tem
 
-em Group ay ate ‘Texspit Foul
-[ERP Porn | Annual Schoo Enterprise Subscipion- [1 INRT19000. (9% oe NR 12.96.000
+em Group ‘ay ate ‘Texsput Fou
+[ERP Porn | Annual Schoo Enterprise Subscpion- [1 INRT19000. (9% oe NR 12.96.00
 Zeampuses
-Patot communication adi-on-estnated 200000 INROSBinsg cS oe wr 29,680
+Prot communication od-on- estimated 200000 INROSBinsg *% oe wr 9.680
 message pack msgs
-mglemeraton [Datamation + wating + gove Suppo 1 vm 240,000, 3 oe wr 283.200
-Surmary Subltal and tes INR 14.1500 _|INR3.274a0 | WR1.27.440_|INR 16.70.80,
+mglemeraton [Data migyaion + wating + goilve Suppo vm 240,000, co oe wr 283.200
+Surmary Sublotal andes INR 14.1500 __|INR3.274a0_|WR1.27.440_ INR 16,70.800
 
 ---
 
@@ -2821,11 +2802,11 @@ Surmary Subltal and tes INR 14.1500 _|INR3.274a0 | WR1.27.440_|INR 16.70.80,
 Metadata:
 ```json
 {
-  "source": "C:\\Users\\Sunny\\mm-rag-full-stack-genai-bootcamp-1.0\\data\\uploads\\Client_Contracts_Policies_and_Incident_Records.pdf",
+  "source": "/Users/vanshbalani/Desktop/FullStackGenAI/Class-39-MM-Rag-project/mm-rag-full-stack-genai-bootcamp-1.0/data/uploads/Client_Contracts_Policies_and_Incident_Records.pdf",
   "page_number": 19,
   "content_type": "image",
   "image_index": 1,
-  "image_path": "C:\\Users\\Sunny\\mm-rag-full-stack-genai-bootcamp-1.0\\data\\parsed_pdf_output\\Client_Contracts_Policies_and_Incident_Records\\extracted_images\\page_019_image_1.png",
+  "image_path": "/Users/vanshbalani/Desktop/FullStackGenAI/Class-39-MM-Rag-project/mm-rag-full-stack-genai-bootcamp-1.0/data/parsed_pdf_output/Client_Contracts_Policies_and_Incident_Records/extracted_images/page_019_image_1.png",
   "image_ext": "png"
 }
 ```
@@ -2833,7 +2814,7 @@ Metadata:
 Content:
 IMAGE FOUND ON PAGE 19
 IMAGE INDEX: 1
-IMAGE PATH: C:\Users\Sunny\mm-rag-full-stack-genai-bootcamp-1.0\data\parsed_pdf_output\Client_Contracts_Policies_and_Incident_Records\extracted_images\page_019_image_1.png
+IMAGE PATH: /Users/vanshbalani/Desktop/FullStackGenAI/Class-39-MM-Rag-project/mm-rag-full-stack-genai-bootcamp-1.0/data/parsed_pdf_output/Client_Contracts_Policies_and_Incident_Records/extracted_images/page_019_image_1.png
 
 IMAGE OCR TEXT:
 Visual Appendix 1: Multimodal Document Flow
@@ -2859,11 +2840,11 @@ Expected extraction: content blocks with source file, page, section, modality, a
 Metadata:
 ```json
 {
-  "source": "C:\\Users\\Sunny\\mm-rag-full-stack-genai-bootcamp-1.0\\data\\uploads\\Client_Contracts_Policies_and_Incident_Records.pdf",
+  "source": "/Users/vanshbalani/Desktop/FullStackGenAI/Class-39-MM-Rag-project/mm-rag-full-stack-genai-bootcamp-1.0/data/uploads/Client_Contracts_Policies_and_Incident_Records.pdf",
   "page_number": 20,
   "content_type": "image",
   "image_index": 1,
-  "image_path": "C:\\Users\\Sunny\\mm-rag-full-stack-genai-bootcamp-1.0\\data\\parsed_pdf_output\\Client_Contracts_Policies_and_Incident_Records\\extracted_images\\page_020_image_1.png",
+  "image_path": "/Users/vanshbalani/Desktop/FullStackGenAI/Class-39-MM-Rag-project/mm-rag-full-stack-genai-bootcamp-1.0/data/parsed_pdf_output/Client_Contracts_Policies_and_Incident_Records/extracted_images/page_020_image_1.png",
   "image_ext": "png"
 }
 ```
@@ -2871,7 +2852,7 @@ Metadata:
 Content:
 IMAGE FOUND ON PAGE 20
 IMAGE INDEX: 1
-IMAGE PATH: C:\Users\Sunny\mm-rag-full-stack-genai-bootcamp-1.0\data\parsed_pdf_output\Client_Contracts_Policies_and_Incident_Records\extracted_images\page_020_image_1.png
+IMAGE PATH: /Users/vanshbalani/Desktop/FullStackGenAI/Class-39-MM-Rag-project/mm-rag-full-stack-genai-bootcamp-1.0/data/parsed_pdf_output/Client_Contracts_Policies_and_Incident_Records/extracted_images/page_020_image_1.png
 
 IMAGE OCR TEXT:
 Visual Appendix 2: Contract Risk Dashboard Snapshot
@@ -2883,7 +2864,7 @@ Open Contract Risks by Month
 45
 I High risk: 12 clauses
 38
-(MM) Medium risk: 21 clauses
+(Medium risk: 21 clauses
 31
 [Low risk: 45 clauses
 26
@@ -2903,11 +2884,11 @@ Expected extraction: chart title, series values, legend labels, table values, an
 Metadata:
 ```json
 {
-  "source": "C:\\Users\\Sunny\\mm-rag-full-stack-genai-bootcamp-1.0\\data\\uploads\\Client_Contracts_Policies_and_Incident_Records.pdf",
+  "source": "/Users/vanshbalani/Desktop/FullStackGenAI/Class-39-MM-Rag-project/mm-rag-full-stack-genai-bootcamp-1.0/data/uploads/Client_Contracts_Policies_and_Incident_Records.pdf",
   "page_number": 21,
   "content_type": "image",
   "image_index": 1,
-  "image_path": "C:\\Users\\Sunny\\mm-rag-full-stack-genai-bootcamp-1.0\\data\\parsed_pdf_output\\Client_Contracts_Policies_and_Incident_Records\\extracted_images\\page_021_image_1.png",
+  "image_path": "/Users/vanshbalani/Desktop/FullStackGenAI/Class-39-MM-Rag-project/mm-rag-full-stack-genai-bootcamp-1.0/data/parsed_pdf_output/Client_Contracts_Policies_and_Incident_Records/extracted_images/page_021_image_1.png",
   "image_ext": "png"
 }
 ```
@@ -2915,14 +2896,14 @@ Metadata:
 Content:
 IMAGE FOUND ON PAGE 21
 IMAGE INDEX: 1
-IMAGE PATH: C:\Users\Sunny\mm-rag-full-stack-genai-bootcamp-1.0\data\parsed_pdf_output\Client_Contracts_Policies_and_Incident_Records\extracted_images\page_021_image_1.png
+IMAGE PATH: /Users/vanshbalani/Desktop/FullStackGenAI/Class-39-MM-Rag-project/mm-rag-full-stack-genai-bootcamp-1.0/data/parsed_pdf_output/Client_Contracts_Policies_and_Incident_Records/extracted_images/page_021_image_1.png
 
 IMAGE OCR TEXT:
 Visual Appendix 3: Data Lineage and Access Boundary
 
 Parsing challenge: diagram text must be OCRed and mapped to relationships.
 
-[ctient Upload|—Seture Object St gestion Workpr—Valctor Namespa
+[ctient Upload|—Seture Object St gestion Workpr—Valctor Namespai
 
 Auth Service Query Router LLM Gateway
 
@@ -2939,11 +2920,11 @@ before LLM context creation.
 Metadata:
 ```json
 {
-  "source": "C:\\Users\\Sunny\\mm-rag-full-stack-genai-bootcamp-1.0\\data\\uploads\\Client_Contracts_Policies_and_Incident_Records.pdf",
+  "source": "/Users/vanshbalani/Desktop/FullStackGenAI/Class-39-MM-Rag-project/mm-rag-full-stack-genai-bootcamp-1.0/data/uploads/Client_Contracts_Policies_and_Incident_Records.pdf",
   "page_number": 22,
   "content_type": "image",
   "image_index": 1,
-  "image_path": "C:\\Users\\Sunny\\mm-rag-full-stack-genai-bootcamp-1.0\\data\\parsed_pdf_output\\Client_Contracts_Policies_and_Incident_Records\\extracted_images\\page_022_image_1.png",
+  "image_path": "/Users/vanshbalani/Desktop/FullStackGenAI/Class-39-MM-Rag-project/mm-rag-full-stack-genai-bootcamp-1.0/data/parsed_pdf_output/Client_Contracts_Policies_and_Incident_Records/extracted_images/page_022_image_1.png",
   "image_ext": "png"
 }
 ```
@@ -2951,7 +2932,7 @@ Metadata:
 Content:
 IMAGE FOUND ON PAGE 22
 IMAGE INDEX: 1
-IMAGE PATH: C:\Users\Sunny\mm-rag-full-stack-genai-bootcamp-1.0\data\parsed_pdf_output\Client_Contracts_Policies_and_Incident_Records\extracted_images\page_022_image_1.png
+IMAGE PATH: /Users/vanshbalani/Desktop/FullStackGenAI/Class-39-MM-Rag-project/mm-rag-full-stack-genai-bootcamp-1.0/data/parsed_pdf_output/Client_Contracts_Policies_and_Incident_Records/extracted_images/page_022_image_1.png
 
 IMAGE OCR TEXT:
 SCANNED TAX INVOICE
@@ -2980,7 +2961,7 @@ Subtotal: INR 118,900
 CGST 9%: INR 10,701
 SGST 9%: INR 10,701
 
-Total Amount:NR 140,302
+Total AmountiNR 140,302
 
 Payment Terms:
 
@@ -3000,11 +2981,11 @@ Received by: K. Mehta
 Metadata:
 ```json
 {
-  "source": "C:\\Users\\Sunny\\mm-rag-full-stack-genai-bootcamp-1.0\\data\\uploads\\Client_Contracts_Policies_and_Incident_Records.pdf",
+  "source": "/Users/vanshbalani/Desktop/FullStackGenAI/Class-39-MM-Rag-project/mm-rag-full-stack-genai-bootcamp-1.0/data/uploads/Client_Contracts_Policies_and_Incident_Records.pdf",
   "page_number": 23,
   "content_type": "image",
   "image_index": 1,
-  "image_path": "C:\\Users\\Sunny\\mm-rag-full-stack-genai-bootcamp-1.0\\data\\parsed_pdf_output\\Client_Contracts_Policies_and_Incident_Records\\extracted_images\\page_023_image_1.png",
+  "image_path": "/Users/vanshbalani/Desktop/FullStackGenAI/Class-39-MM-Rag-project/mm-rag-full-stack-genai-bootcamp-1.0/data/parsed_pdf_output/Client_Contracts_Policies_and_Incident_Records/extracted_images/page_023_image_1.png",
   "image_ext": "png"
 }
 ```
@@ -3012,7 +2993,7 @@ Metadata:
 Content:
 IMAGE FOUND ON PAGE 23
 IMAGE INDEX: 1
-IMAGE PATH: C:\Users\Sunny\mm-rag-full-stack-genai-bootcamp-1.0\data\parsed_pdf_output\Client_Contracts_Policies_and_Incident_Records\extracted_images\page_023_image_1.png
+IMAGE PATH: /Users/vanshbalani/Desktop/FullStackGenAI/Class-39-MM-Rag-project/mm-rag-full-stack-genai-bootcamp-1.0/data/parsed_pdf_output/Client_Contracts_Policies_and_Incident_Records/extracted_images/page_023_image_1.png
 
 IMAGE OCR TEXT:
 SCANNED UTILITY BILL
@@ -3043,7 +3024,7 @@ Subtotal: INR 10,278
 CGST 9%: INR 925
 SGST 9%: INR 925
 
-Total Amount:iNR 12,128
+Total Amount:NR 12,128
 
 Payment Terms:
 
@@ -3063,11 +3044,11 @@ Received by: K. Mehta
 Metadata:
 ```json
 {
-  "source": "C:\\Users\\Sunny\\mm-rag-full-stack-genai-bootcamp-1.0\\data\\uploads\\Client_Contracts_Policies_and_Incident_Records.pdf",
+  "source": "/Users/vanshbalani/Desktop/FullStackGenAI/Class-39-MM-Rag-project/mm-rag-full-stack-genai-bootcamp-1.0/data/uploads/Client_Contracts_Policies_and_Incident_Records.pdf",
   "page_number": 24,
   "content_type": "image",
   "image_index": 1,
-  "image_path": "C:\\Users\\Sunny\\mm-rag-full-stack-genai-bootcamp-1.0\\data\\parsed_pdf_output\\Client_Contracts_Policies_and_Incident_Records\\extracted_images\\page_024_image_1.jpeg",
+  "image_path": "/Users/vanshbalani/Desktop/FullStackGenAI/Class-39-MM-Rag-project/mm-rag-full-stack-genai-bootcamp-1.0/data/parsed_pdf_output/Client_Contracts_Policies_and_Incident_Records/extracted_images/page_024_image_1.jpeg",
   "image_ext": "jpeg"
 }
 ```
@@ -3075,7 +3056,7 @@ Metadata:
 Content:
 IMAGE FOUND ON PAGE 24
 IMAGE INDEX: 1
-IMAGE PATH: C:\Users\Sunny\mm-rag-full-stack-genai-bootcamp-1.0\data\parsed_pdf_output\Client_Contracts_Policies_and_Incident_Records\extracted_images\page_024_image_1.jpeg
+IMAGE PATH: /Users/vanshbalani/Desktop/FullStackGenAI/Class-39-MM-Rag-project/mm-rag-full-stack-genai-bootcamp-1.0/data/parsed_pdf_output/Client_Contracts_Policies_and_Incident_Records/extracted_images/page_024_image_1.jpeg
 
 IMAGE OCR TEXT:
 

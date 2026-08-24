@@ -9,7 +9,7 @@ from typing import Any, Iterable
 
 from dotenv import load_dotenv
 from langchain_core.messages import HumanMessage, SystemMessage
-from langchain_openai import ChatOpenAI
+from langchain_groq import ChatGroq
 from PIL import Image
 
 # ---------------------------------------------------------------------
@@ -65,8 +65,9 @@ class MultimodalRAGGenerator:
         try:
             self.model_name = (
                 model_name
+                or os.getenv("GROQ_CHAT_MODEL")
                 or os.getenv("OPENAI_CHAT_MODEL")
-                or "gpt-4.1-mini"
+                or "qwen/qwen3.6-27b"
             )
 
             self.temperature = temperature
@@ -80,9 +81,10 @@ class MultimodalRAGGenerator:
                 collection_name=collection_name
             )
 
-            self.llm = ChatOpenAI(
+            self.llm = ChatGroq(
                 model=self.model_name,
                 temperature=self.temperature,
+                groq_api_key=os.getenv("GROQ_API_KEY"),
             )
 
             logger.info(
@@ -107,8 +109,8 @@ class MultimodalRAGGenerator:
     # -----------------------------------------------------------------
 
     def _validate_config(self) -> None:
-        if not os.getenv("OPENAI_API_KEY"):
-            raise ValueError("OPENAI_API_KEY is missing")
+        if not os.getenv("GROQ_API_KEY"):
+            raise ValueError("GROQ_API_KEY is missing")
 
         if self.max_images < 0:
             raise ValueError("max_images cannot be negative")

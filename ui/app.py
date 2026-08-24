@@ -690,8 +690,11 @@ def try_restore_index_state(
 # ---------------------------------------------------------------------
 
 def render_config_status() -> None:
-    openai_key = bool(
-        os.getenv("OPENAI_API_KEY")
+    groq_key = bool(
+        os.getenv("GROQ_API_KEY")
+    )
+    google_key = bool(
+        os.getenv("GOOGLE_API_KEY") or os.getenv("GEMINI_API_KEY")
     )
     qdrant_url = (
         os.getenv("QDRANT_URL")
@@ -711,7 +714,10 @@ def render_config_status() -> None:
         expanded=False,
     ):
         st.write(
-            f"{'✅' if openai_key else '❌'} OpenAI API key"
+            f"{'✅' if groq_key else '❌'} Groq API key"
+        )
+        st.write(
+            f"{'✅' if google_key else '❌'} Gemini API key"
         )
         st.write(
             f"{'✅' if qdrant_url else '❌'} Qdrant URL"
@@ -1901,9 +1907,12 @@ if is_chat_ready():
             "Model",
             value=(
                 os.getenv(
+                    "GROQ_CHAT_MODEL"
+                )
+                or os.getenv(
                     "OPENAI_CHAT_MODEL"
                 )
-                or "gpt-4.1-mini"
+                or "qwen/qwen3.6-27b"
             ),
             key="chat_model_input",
         )
